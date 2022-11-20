@@ -11,7 +11,7 @@ export default function SideBar() {
     <div className='w-full bg-white h-full border-r-2 border-gray-300 relative flex items-center'>
       <img src='logo192.png' className='w-20 ml-5 absolute top-0' alt='logo' />
       <div className='px-5 w-full'>
-        <Link to={'/'}>
+        <Link to={'/home'}>
           <div
             className={location === '/' ? 'list-navbar-active' : 'list-navbar'}
           >
@@ -59,7 +59,7 @@ export default function SideBar() {
             <p className='font-semibold'>User Management</p>
           </div>
         </Link>
-        <Link to={'/login'}>
+        <Link to={'/'}>
           <div className={'list-navbar'}>
             <AiOutlineLogout className='mb-1 mr-4 text-lg' />
             <p className='font-semibold'>Logout</p>

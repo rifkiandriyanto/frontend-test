@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 export default function Login() {
     const navigate = useNavigate()
     const handleLogin = () => {
-        navigate('/')
+        navigate('/home')
     }
     return (
         <section className='h-screen w-screen overflow-hidden'>

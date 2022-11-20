@@ -8,7 +8,7 @@ export default function RegisterComponent() {
 
   const handleRegister = (e) => {
     e.preventDefault();
-    navigate('/login');
+    navigate('/');
   };
 
   return (
